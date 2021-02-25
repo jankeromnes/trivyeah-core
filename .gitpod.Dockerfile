@@ -1,5 +1,5 @@
-FROM gitpod/workspace-mysql
-                    
+FROM gitpod/workspace-mysql:branch-aledbf-base-image
+
 USER gitpod
 
 # Install custom tools, runtime, etc. using apt-get
